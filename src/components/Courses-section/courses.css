@@ -27,3 +27,7 @@
 .rating i {
     font-weight: 400;
 }
+
+.course__title {
+    line-height: 2rem;
+}
