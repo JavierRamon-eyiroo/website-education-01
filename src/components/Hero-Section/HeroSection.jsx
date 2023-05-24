@@ -2,6 +2,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import heroImg from '../../assests/images/hero-img1.png'
+import './hero-section.css'
 
 const HeroSection = () => {
   return <section>
@@ -9,9 +10,11 @@ const HeroSection = () => {
         <Row>
             <Col lg='6' md='6'>
                 <div className='hero__content'>
-                    <h2>Anytime Anywhere Learn on your Suitable Schedule</h2>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipusicing elit. Aunt saepe volunptatum earum delectus deserunt id iste, quas officiis et repellat
+                    <h2 className='mb-4'>
+                        Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
+                    </h2>
+                    <p className='mb-4'>
+                        Lorem ipsum dolor sit amet consectetur <br /> adipusicing elit. Aunt saepe volunptatum earum delectus <br /> deserunt id iste, quas officiis et repellat
                     </p>
                 </div>
 
